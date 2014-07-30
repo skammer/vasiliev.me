@@ -1,0 +1,39 @@
+---
+layout: default
+title: Blog
+---
+
+{% for post in site.blog %}
+  <article class="blog_article">
+    <h1 class="blog_article__heading">
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    </h1>
+
+    <time class="blog_article__time" datetime="{{ article.date.strftime('%d/%m/%Y') }}">
+      {{ post.date | date: "%b %-d, %Y" }}
+    </time>
+
+    <section class="blog_article__body">
+      {{ post.excerpt }}
+    </section>
+  </article>
+{% endfor %}
+
+<p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+<div class="home">
+
+  <h1>Posts</h1>
+
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  
+
+</div>

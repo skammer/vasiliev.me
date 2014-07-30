@@ -1,0 +1,16 @@
+---
+Date: 12 November 2010
+Title: Сайт маленького магазинчика одежды
+Categories: дизайн, вёрстка, php, MODx
+Type: works
+Template: work
+Image: /images/work/vstyle.png
+Links:
+  - title: VStyle
+    url:   http://vstyle.su/
+---
+
+Этот сайт я делал с начала и до конца. Дизайн, вёрстка и чуть-чуть программирования на PHP.
+Сайт занимается продажей одежды от российских производителей.
+
+

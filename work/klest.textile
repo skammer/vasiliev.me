@@ -1,0 +1,15 @@
+---
+Date: 01 December 2011
+Title: Сайт группы компаний «Клёст»
+Categories: вёрстка, HTML5, CSS3, buzzwords, javascript, Ruby on Rails
+Type: works
+Template: work
+Image: /images/work/klest3.jpg
+Links:
+  - title: klest-wood.ru
+    url:   http://klest-wood.ru/
+---
+
+Первый самостоятельный проект, для которого я решил всё писать сам на Ruby on Rails. Занимался всей разработкой, но замечательный дизайн, к сожалению, не мой ;)
+
+

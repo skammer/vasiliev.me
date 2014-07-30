@@ -1,0 +1,17 @@
+---
+Date: 12 October 2011
+Title: Сайт агенства по проведению мероприятий
+Categories: вёрстка, js
+Type: works
+Template: work
+Image: /images/work/davinci.jpg
+Links:
+  - title: Da Vinci group
+    url:   http://davinci-group.ru/
+  - title: вёрстка
+    url:   /sites/davinci
+---
+
+Небольшой одностраничный сайт. В последствии его сильно, эммм, изменили.
+
+

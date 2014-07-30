@@ -1,0 +1,13 @@
+---
+Date: 20 June 2010
+Title: vim-css-color
+Categories: vim, css, viml
+Type: projects
+Template: project
+Image: /images/projects/csscolor.png
+Links: 
+  - title: vim-css-color@github
+    url:   http://gisthub.com/skammer/vim-css-color
+---
+
+Плагин для текстового редактора Vim, подсвечивающий цвета прямо в коде.

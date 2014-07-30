@@ -1,0 +1,36 @@
+<header class="site-header">
+
+  <nav class="navigation">
+    <ul class="navigation__list">
+      <li class="navigation__item">
+        <a class="navigation__link" href="{{ site.baseurl }}/" title="{{ site.title }}">
+          <img class="navigation__link__home" src="{{ "/images/house.svg" | prepend: site.baseurl }}" />
+        </a>
+      </li>
+
+      {% for page in site.pages %}
+        {% if page.title %}
+          <li class="navigation__item">
+            <a class="navigation__link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+
+      <!--
+      <li class="navigation__item">
+        <a class="navigation__link" href="/blog">Blog</a>
+      </li>
+      <li class="navigation__item">
+        <a class="navigation__link" href="/projects">Projects</a>
+      </li>
+      <li class="navigation__item">
+        <a class="navigation__link" href="about">About</a>
+      </li>
+      <li class="navigation__item">
+        <a class="navigation__link" href="/cv">CV</a>
+      </li>
+      -->
+    </ul>
+  </nav>
+
+</header>

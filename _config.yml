@@ -1,0 +1,20 @@
+# Site settings
+title: My little bloggy
+email: max@vasiliev.me
+description: "Frontend developer by day. Backend developer by night."
+baseurl: ""
+url: "http://www.vasiliev.me"
+twitter_username: skammer
+github_username:  skammer
+linkedin_username: maxvasiliev
+facebook_username: max.vasiliev
+
+collections:
+  blog:
+    output: true
+    permalink: /awesome/:path/
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+    

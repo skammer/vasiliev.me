@@ -1,0 +1,14 @@
+---
+Date: 25 March 2011
+Title: GridPro
+Categories: вёрстка
+Type: works
+Template: work
+Image: /images/work/gridpro.jpg
+Links: 
+  - title: gridpro.com
+    url:   http://gridpro.com
+---
+
+Вёрстка сайта компании, делающей какую-то очень крутую программу для моделирования всего.
+

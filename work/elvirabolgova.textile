@@ -1,0 +1,15 @@
+ ---
+Date: 15 May 2011
+Title: Сайт актрисы Эльвиры Болговой
+Categories: вёрстка
+Type: works
+Template: work
+Image: /images/work/elvirabolgova.jpg
+Links: 
+  - title: сайт
+    url:   http://elvirabolgova.ru
+---
+
+Занимался только вёрсткой и всякими мелкими доработками дизайна.
+
+

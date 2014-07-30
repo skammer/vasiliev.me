@@ -1,0 +1,17 @@
+---
+Date: 20 Dec 2010
+Title: vim-ruby-complexity
+Categories: vim, ruby, cyclomatic complexity, viml, flog
+Type: projects
+Template: project
+Image: /images/projects/complexity.png
+Links: 
+  - title: vim-ruby-complexity@github
+    url:   http://gisthub.com/skammer/vim-ruby-complexity
+---
+
+Плагин, показывающий в @signs MOAR code@ колонке вима сложность ruby методов. Я чувствую, что сюда, ради теста, надо добавить ещё немного текста.
+
+И ещё один параграф. Так, чтобы посмотреть что будет если вдруг появится более одного параграфа в описании. Плюс мне надо проверить как оно всё будет обтекать эту дурацкую картинку.
+
+Никогда не думал, но я и правда могу генерировать много бесполезного текста.  Много — это только в моём понимании. Третий параграф пошёл, а ни одной дельной мысли я так и не сказал. Вот.

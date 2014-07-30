@@ -1,0 +1,14 @@
+---
+Date: 05 June 2011
+Title: Промо-сайт фильма «Упражнения в прекрасном»
+Categories: вёрстка
+Type: works
+Template: work
+Image: /images/work/uvpfilm.jpg
+Links:
+  - title: УВП
+    url:   http://uvpfilm.ru
+---
+
+Небольшой проект промо-сайта, в котором я, очевидно, отвечал за вёрстку.
+

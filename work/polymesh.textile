@@ -1,0 +1,16 @@
+---
+Date: 10 June 2011
+Title: Биржа 3D моделей
+Categories: вёрстка
+Type: works
+Template: work
+Image: /images/work/polymesh.jpg
+Links:
+  - title: вёрстка главной
+    url:   /sites/polymesh
+  - title: есть ещё, если интересно
+    url:   mailto:max@va%73iliev%2E%6De
+---
+
+Должна была быть большая и красивая биржа трёхмерных моделей, но что-то, видимо, не срослось, и проект не взлетел. Очень жаль ;(
+

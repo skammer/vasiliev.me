@@ -1,0 +1,16 @@
+---
+Date: 17 December 2011
+Title: Секретный проект
+Categories: вёрстка, HTML5, CSS3, sass, javascript, coffeescript, more buzzwords
+Type: works
+Template: work
+Image: /images/work/secret.png
+Links:
+  - title: секрет
+    url:   http://slovari.yandex.ru/секрет/
+---
+
+Пока я лучше ничего говорить не буду, чтобы потом не нарваться на разборки :D
+
+
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+<head>
+	<title>Иконка для Terminal</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta name="author" content="Max Vasiliev" />
+	<meta name="copyright"	content="© 2008 Max Vasiliev" />	
+	<meta name="keywords" content="icon, terminal, mac os x, иконка, терминал" />
+	<meta name="description" content="Макс Васильев. Домашняя" />
+	
+	<style type="text/css">
+	  body{
+	    background-color: #fefefe;
+	    color: #333;
+	    font-family: Georgia, serif;;
+	  }
+	  pre {
+	    border: 1px solid #bbb;
+	  }
+	</style>
+</head>
+<body>
+  <h1>Иконка для Terminal.app</h1>
+  <img src="Terminal-1.png" alt="превью иконки">
+  <h2>Вступительное слово</h2>
+  <p>
+    Любя аниме и видя этот одноглазый смайлик каждый раз подводя курсор к левому краю экрана, чтобы появился Dock, я не смог долго терпеть.
+  </p>
+  <p>
+    Поиски в этих ваших Интернетах не дали никакого результата. В итоге пришлось всё делать самому.
+  </p>
+  <h2>Как установить?</h2>
+  <p>
+    Если просто, то:
+    <ol>
+      <li>Скачать и распаковать файлик</li>
+      <li>Открыть Finder</li>
+      <li>Нажать Cmd-Shift-A (это открывает папку Applications)</li>
+      <li>Пойти в папку Utilities</li>
+      <li>Найти Terminal и нажать на нём Show Package Contents</li>
+      <li>Следовать в Contents/Resources, никуда не сворачивая</li>
+      <li>Переименовать старый Terminal.icns во что угодно и скопировать сюда новый Terminal.icns</li>
+      <li>?????</li>
+      <li>ПРОФИТ</li>
+    </ol>
+  </p>
+  <p>
+    Если немного сложнее, то:
+    <pre>
+      
+    cd /Applications/Utilities/Terminal.app/Contents/Resources
+    mv Terminal.icns Terminal_old.icns
+    curl -C - -O http://skammer.name/files/Terminal.zip
+    unzip Terminal.zip;rm -rf __MACOSX
+    echo "PROFIT"
+    </pre>
+  </p>
+  <h2>Скачиваем</h2>
+  <p><a href="http://skammer.name/files/Terminal.zip" title="Terminal.zip">Архив с Terminal.icns</a></p>
+  <p>На случай если не понравилось, а старого <a href="http://skammer.name/files/Terminal-restore.zip" title="Terminal-restore.zip">файлика</a> не сохранилось.</p>
+  <p><strong>UPDATE:</strong> Добавил <a href="http://skammer.name/files/terminal-png.zip" title="terminal-png.zip">.png иконки</a>.</p>
+  <h2>Копирайты</h2>
+  <p>Скорее всего Apple inc.™®©...</p>
+  <p>Ну а доделал за них работу <a href="http://skammer.name/" title="Мастер на все руки">я</a>.</p>
+  
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-2925277-2");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>

@@ -1,0 +1,187 @@
+---
+---
+
+$background-color: white;
+$red: #EC482E;
+$grey: #666;
+
+$main: $red;
+
+$sans-serif: 'Open Sans', sans-serif;
+$serif: 'PT Serif', serif;
+
+html{
+  /*height: 100%;*/
+}
+
+body {
+  background-color: $background-color;
+  font-family: $serif;
+  font-size: 20px;
+  height: 100%;
+  min-height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $sans-serif;
+  color: $main;
+}
+
+a {
+  color: $main;
+}
+
+/*
+ * Available fonts:
+ *   font-family: 'Ubuntu Mono', monospaced;
+ *   font-family: 'PT Serif', serif;
+ *   font-family: 'Open Sans', sans-serif;
+ *
+ */
+
+#instantclick-bar {
+  background: $main;
+}
+
+.__wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.wrapper {
+  height: 100%;
+  /*padding: 0 20px;*/
+}
+
+.greeting {
+  @extend .__wrapper;
+
+  background-color: $main;
+  padding: 60px;
+  color: $background-color;
+}
+
+.greeting__header {
+  font-size: 100px;
+  text-align: center;
+  color: $background-color;
+  margin: 0;
+}
+
+.greeting__foreword {
+  color: $background-color;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.navigation {
+  text-align: center;
+  margin-top: 40px;
+  font-family: $sans-serif;
+}
+
+.navigation__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin-bottom: 20px;
+  font-size: 30px;
+  line-height: 1.5em;
+}
+
+.navigation__item {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.navigation__link {}
+
+.navigation__link__home {
+  width: 25px;
+
+  & path {
+    stroke: #006600;
+    fill:   #00cc00;
+  }
+}
+
+.footer {
+  text-align: center;
+  font-family: $sans-serif;
+}
+
+.footer__nav {
+  margin: 20px 0;
+}
+
+.footer__nav__link {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.footer__mascot {
+  margin: 20px;
+}
+
+.blog_article {
+  max-width: 960px;
+  padding: 0 20px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.blog_article__heading {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.blog_article__time {
+  display: block;
+  text-align: center;
+  color: $grey;
+  font-family: $sans-serif;
+  margin-bottom: 40px;
+  font-size: 15px;
+
+  &:before,
+  &:after {
+    content: " — ";
+  }
+}
+
+.blog_article__body {
+  line-height: 1.5em;
+  img {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .greeting__header {
+    font-size: 85px;
+  }
+
+  .greeting__foreword {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .greeting {
+    padding: 60px 0;
+  }
+
+  .greeting__header {
+    font-size: 65px;
+  }
+
+  .greeting__foreword {
+    font-size: 20px;
+  }
+
+  .navigation__list {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,15 @@
+---
+Date: 10 February 2011
+Title: Релэнд-тур
+Categories: дизайн, вёрстка, MODx
+Type: works
+Template: work
+Image: /images/work/relandtur.jpg
+Links: 
+  - title: Релэнд-тур.ру
+    url:   http://relandtur.ru/
+---
+
+Сайт небольшого туристического агенства из Красногорска. Я делал дизай, а потом всё остальное.
+
+

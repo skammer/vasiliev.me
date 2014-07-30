@@ -1,0 +1,13 @@
+---
+Date: 20 June 2010
+Title: Сайт актёра Влада Дёмина
+Categories: вёрстка
+Type: works
+Template: work
+Image: /images/work/demin.jpg
+Links: 
+  - title: vladdemin.ru
+    url:   http://vladdemin.ru/
+---
+
+Я делал вёрстку и всякие другие мелочи.

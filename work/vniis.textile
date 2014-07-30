@@ -1,0 +1,14 @@
+---
+Date: 01 June 2010
+Title: Сайт ВНИИС
+Categories: вёрстка
+Type: works
+Template: work
+Image: /images/work/vniis.png
+Links: 
+  - title: сайт ВНИИС
+    url:   http://www.vniis.ru/
+---
+
+В этом проекте я занимался вёрсткой, всяким js, и совсем немного дизайном, где что-то не дорисовал дизайнер.
+
