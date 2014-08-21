@@ -8,13 +8,9 @@ twitter_username: skammer
 github_username:  skammer
 linkedin_username: maxvasiliev
 facebook_username: max.vasiliev
-
-collections:
-  blog:
-    output: true
-    permalink: /awesome/:path/
+paginate: 1 
 
 # Build settings
 markdown: kramdown
 permalink: pretty
-    
+highlighter: rouge
