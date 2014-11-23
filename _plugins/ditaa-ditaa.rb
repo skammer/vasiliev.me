@@ -1,5 +1,6 @@
 require "fileutils"
 require "tempfile"
+require 'fastimage'
 require "digest/sha1"
 
 module Ditaa
@@ -10,7 +11,7 @@ module Ditaa
 			:separation => true,
 			:encoding => "utf-8",
 			:round => false,
-			:scale => 1.0,
+			:scale => 2.0,
 			:shadows => true,
 			:tabs => 8,
 			:verbose => false
@@ -60,7 +61,11 @@ module Ditaa
 		end
 		
 		def imgtag
-			%(<img src="#{url}" />)
+      # We scaled images 2x, so we need to set their size as half of 
+      # actual image dimentions
+      image_size =  FastImage.size  File.join(@site.config["destination"], relative_destination)
+
+			%(<img src="#{ url }" width="#{ image_size[0]/2 }" height="#{ image_size[1]/2 }" />)
 		end
 		alias_method :output, :imgtag
 		
@@ -142,7 +147,7 @@ module Ditaa
 	class PageDitaaDiagram < DitaaDiagram
 		def initialize site, page
 			@page = page
-			
+
 			unless @page.data["ditaa"].nil?
 				options = Jekyll::Utils.symbolize_hash_keys @page.data["ditaa"]
 			end
@@ -397,6 +402,7 @@ begin
 			site.static_files << diagram = Ditaa::TagDitaaDiagram.new(site, el.value, arguments)
 			
 			attr["src"] = diagram.url
+
 			"#{" " * indent}<img#{html_attributes attr} />\n"
 		end
 	end
