@@ -2,7 +2,6 @@
 layout: post
 date: "2012-01-02"
 title: QRCode для Android Market
-categories: блог, js, qrcode, android, market
 ---
 
 Я жутко не люблю печатать на мобильных телефонах и очень люблю QR коды.  
