@@ -3,6 +3,7 @@ title: My little bloggy
 email: max@vasiliev.me
 description: "Frontend developer by day. Backend developer by night."
 baseurl: ""
+blogurl: "blog"
 url: "http://www.vasiliev.me"
 twitter_username: skammer
 github_username:  skammer
@@ -12,5 +13,6 @@ paginate: 1
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+# permalink: pretty
+permalink: /blog/:title/
 highlighter: rouge
