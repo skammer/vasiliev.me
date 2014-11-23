@@ -1,24 +1,31 @@
 ---
 layout: default
 title: Blog
+permalink: /blog/
 ---
 
 <section class="posts">
   {% for post in site.posts %}
-    <article class="blog_article">
-      <h1 class="blog_article__heading">
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h1>
-      
+    <h1 class="blog_article__heading">
+      <a class="post-link" href="{{ post.url | prepend: site.blogeurl }}">{{ post.title }}</a>
+    </h1>
       <time class="blog_article__time" datetime="{{ post.date.strftime('%d/%m/%Y') }}">
         {{ post.date | date: "%b %-d, %Y" }}
       </time>
-
-      <section class="blog_article__body">
-        {{ post.content }}
-      </section>
-
-    </article>
+    <!-- <article class="blog_article"> -->
+    <!--   <h1 class="blog_article__heading"> -->
+    <!--     <a class="post&#45;link" href="{{ post.url | prepend: site.blogeurl }}">{{ post.title }}</a> -->
+    <!--   </h1> -->
+    <!--    -->
+    <!--   <time class="blog_article__time" datetime="{{ post.date.strftime('%d/%m/%Y') }}"> -->
+    <!--     {{ post.date | date: "%b %&#45;d, %Y" }} -->
+    <!--   </time> -->
+    <!--  -->
+    <!--   <section class="blog_article__body"> -->
+    <!--     {{ post.content }} -->
+    <!--   </section> -->
+    <!--  -->
+    <!-- </article> -->
   {% endfor %}
 </section>
 
