@@ -1,11 +1,18 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+I write code to make certain websites run and look beautiful. And 
+I write some other code that has nothing to do with websites just to 
+have fun.
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Currently working as a grumpy frontend developer at 
+[Bookmate][bookmate].
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+I do need to write a proper about page, but life gets in the way al the 
+time
+:/
+
+[bookmate]: http://bookmate.com "Bookmate"
