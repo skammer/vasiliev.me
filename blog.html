@@ -12,38 +12,5 @@ permalink: /blog/
       <time class="blog_article__time" datetime="{{ post.date.strftime('%d/%m/%Y') }}">
         {{ post.date | date: "%b %-d, %Y" }}
       </time>
-    <!-- <article class="blog_article"> -->
-    <!--   <h1 class="blog_article__heading"> -->
-    <!--     <a class="post&#45;link" href="{{ post.url | prepend: site.blogeurl }}">{{ post.title }}</a> -->
-    <!--   </h1> -->
-    <!--    -->
-    <!--   <time class="blog_article__time" datetime="{{ post.date.strftime('%d/%m/%Y') }}"> -->
-    <!--     {{ post.date | date: "%b %&#45;d, %Y" }} -->
-    <!--   </time> -->
-    <!--  -->
-    <!--   <section class="blog_article__body"> -->
-    <!--     {{ post.content }} -->
-    <!--   </section> -->
-    <!--  -->
-    <!-- </article> -->
   {% endfor %}
 </section>
-
-
-
-<!-- Pagination links -->
-<!--
-<nav class="pagination">
-  {% if paginator.previous_page %}
-    <a href="/page{{ paginator.previous_page }}" class="previous">Previous</a>
-  {% else %}
-    <span class="previous">Previous</span>
-  {% endif %}
-  <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
-  {% if paginator.next_page %}
-    <a href="/page{{ paginator.next_page }}" class="next">Next</a>
-  {% else %}
-    <span class="next ">Next</span>
-  {% endif %}
-</nav>
--->
