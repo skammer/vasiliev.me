@@ -6,11 +6,17 @@ permalink: /blog/
 
 <section class="posts">
   {% for post in site.posts %}
-    <h1 class="blog_article__heading">
-      <a class="post-link" href="{{ post.url | prepend: site.blogeurl }}">{{ post.title }}</a>
+  <article class="posts__item">
+    <h1 class="posts__item__title">
+      <a class="posts__item__link"
+         href="{{ post.url | prepend: site.blogeurl }}">
+        {{ post.title }}
+      </a>
     </h1>
-      <time class="blog_article__time" datetime="{{ post.date.strftime('%d/%m/%Y') }}">
-        {{ post.date | date: "%b %-d, %Y" }}
-      </time>
+    <time class="posts__item__time"
+          datetime="{{ post.date.strftime('%d/%m/%Y') }}">
+      {{ post.date | date: "%b %-d, %Y" }}
+    </time>
+  </article>
   {% endfor %}
 </section>

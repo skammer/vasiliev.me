@@ -147,17 +147,22 @@ a:visited { color: #205caa; }
 
 .home h1 { margin-bottom: 25px; }
 
-.posts { list-style-type: none; }
+.posts { 
+  max-width: 800px;
+  padding: 0 30px;
+  margin: 0 auto;
+  zoom: 1;
+}
 
-.posts li { margin-bottom: 30px; }
+/* .posts li { margin-bottom: 30px; } */
 
-.posts .post-link {
+.posts__item__link{
   font-size: 24px;
   letter-spacing: -1px;
   line-height: 1;
 }
 
-.posts .post-date {
+.posts__item__title {
   display: block;
   font-size: 15px;
   color: #818181;

@@ -3,7 +3,7 @@
 
 $background-color: white;
 $red: #EC482E;
-$grey: #666;
+$grey: #999;
 
 $main: $red;
 
@@ -29,6 +29,11 @@ h1, h2, h3, h4, h5, h6 {
 
 a {
   color: $main;
+
+  &:hover {
+    background-color: $main;
+    color: $background-color;
+  }
 }
 
 /*
@@ -94,11 +99,16 @@ a {
 .navigation__item {
   display: inline-block;
   margin: 0 10px;
+
+}
+
+.navigation__link__home:hover {
+  background-color: transparent;
 }
 
 .navigation__link {}
 
-.navigation__link__home {
+.navigation__link__house {
   width: 25px;
 
   & path {
@@ -123,6 +133,27 @@ a {
 
 .footer__mascot {
   margin: 20px;
+  width: 98px;
+}
+
+.posts {
+  @extend .__wrapper;
+  margin-bottom: 100px;
+}
+
+.posts__item {
+  text-align: center;
+}
+
+.posts__item__title {
+  margin-bottom: 10px;
+}
+
+.posts__item__link{
+}
+
+.posts__item__time {
+  @extend .blog_article__time;
 }
 
 .blog_article {
@@ -184,6 +215,15 @@ a {
 
 .right {
   text-align: right;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #999;
+
+  a {
+    color: #999;
+  }
 }
 
 @media screen and (max-width: 600px) {

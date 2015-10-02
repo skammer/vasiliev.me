@@ -98,4 +98,3 @@ jQuery.timeago.settings.strings =
 
 
 $('time.timeago').timeago()
-

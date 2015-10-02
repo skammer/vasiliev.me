@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Test ditaa integration
+published: false
 ---
 
 {% ditaa %}
