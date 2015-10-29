@@ -65,6 +65,10 @@ a {
   background-color: $main;
   padding: 60px;
   color: $background-color;
+  position: relative;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 90%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+
 }
 
 .greeting__header {
