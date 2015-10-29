@@ -17,13 +17,13 @@ a list of stuff I think I need and will very probably actually use.
 * Гроза-03
 * Crossman 357
 * Soldering station
-* <span class="done">Spiderco Sharpmaker _got one myself_</span>
+* <span class="done">Spiderco Sharpmaker _(got one myself)_</span>
 * Deer Sweater
 * [Noah Bradley print]
 
 ## 3ds games
 
-* <span class="done">Legend of Zelda: Ocarina of time 3D _got one myself_</span>
+* <span class="done">Legend of Zelda: Ocarina of time 3D _(got one myself)_</span>
 * Paper Mario: Sticker Star
 * Castlevania: Lords of Shadow Mirror of Fate
 * Luigi's Mansion 2
@@ -34,7 +34,7 @@ a list of stuff I think I need and will very probably actually use.
 
 ## Books
 * [Truth Machine]
-* <span class="done">[Wall and Piece] _got as a present!_</span>
+* <span class="done">[Wall and Piece] _(got as a present!)_</span>
 * [A Mathematician's Apology]
 * [The Official CIA Manual of Trickery and Deception]
 * [The CIA Document Of Human Manipulation: Kubark Counterintelligence]
@@ -49,15 +49,17 @@ a list of stuff I think I need and will very probably actually use.
 * [No Surrender: My Thirty-Year War]
 
 ## Gadgets
+* _RED_ DualShock 4 controller
+* Cherry MX Brown or Clear Pok3r with DSA Dolch or Granite keycaps
 * 2nd gen fanless Macbook
-* <span class="done">iPad Mini Retina 64GB _don't want one anymore_</span>
+* <span class="done">iPad Mini Retina 64GB _(don't want one anymore)_</span>
 * [MindWave Mobile]
-* <span class="done">Oculus Rift DK2 _got one myself_</span>
+* <span class="done">Oculus Rift DK2 _(got one myself)_</span>
 * [Leap Motion]
-* <span class="done">Misfit Shine + Sport Band _don't want one anymore_</span>
+* <span class="done">Misfit Shine + Sport Band _(don't want one anymore)_</span>
 * Kindle Voyage
-* <span class="done">iPhone 6 128GB _bought myself_</span>
-* <span class="done">PS4 _a present!_</span>
+* <span class="done">iPhone 6 128GB _(bought myself)_</span>
+* <span class="done">PS4 _(a present!)_</span>
 * [Fancy external hard drive]
 
 
