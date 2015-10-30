@@ -24,3 +24,5 @@ exclude:
   - "_demos"
   - "__work"
   - "__projects"
+
+gems: [jekyll-paginate]
