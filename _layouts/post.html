@@ -2,18 +2,16 @@
 layout: default
 ---
 
-<article class="blog_article">
+<article>
 
-  <h1 class="blog_article__heading">
-    <a class="post-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+  <h1>
+    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
   </h1>
-  
-  <time class="blog_article__time" datetime="{{ page.date.strftime('%d/%m/%Y') }}">
+
+  <time datetime="{{ page.date.strftime('%d/%m/%Y') }}">
     {{ page.date | date: "%b %-d, %Y" }}
   </time>
 
-  <article class="blog_article__body">
-    {{ content }}
-  </article>
+  {{ content }}
 
 </article>

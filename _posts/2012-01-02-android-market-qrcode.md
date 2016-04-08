@@ -13,16 +13,19 @@ title: QRCode для Android Market
 Эта штука добавляет большущий и жутко удобный QR код с ссылкой на 
 приложение сразу под кнопкой «Купить/Установить».
 
-![Google Play with QR code]({% asset_path market-qrcode.png %})
+<figure class="fullwidth">
+  <img src="{% asset_path market-qrcode.png %}"
+       alt="Google Play with QR code"/>
+</figure>
 
 {% highlight javascript %}
 // Add handy QR Codes to Android Market.
 // For ~/.js
- 
+
 var url = encodeURIComponent(window.location.href);
 var title = $("h1.doc-banner-title").text();
 var dimentions = "276x276";
- 
+
 var request_url = "http://chart.apis.google.com/chart?cht=qr&chs=" +
                   dimentions +
                   "&chl=MECARD%3AN%3A" +
@@ -30,7 +33,7 @@ var request_url = "http://chart.apis.google.com/chart?cht=qr&chs=" +
                   "%3BURL%3A" +
                   url +
                   "%3B%3B";
- 
+
 $("<img />")
   .attr("src", request_url)
   .attr("title", title)

@@ -4,19 +4,19 @@ title: Blog
 permalink: /blog/
 ---
 
-<section class="posts">
-  {% for post in site.posts %}
-  <article class="posts__item">
-    <h1 class="posts__item__title">
-      <a class="posts__item__link"
-         href="{{ post.url | prepend: site.blogeurl }}">
-        {{ post.title }}
-      </a>
-    </h1>
-    <time class="posts__item__time"
-          datetime="{{ post.date.strftime('%d/%m/%Y') }}">
-      {{ post.date | date: "%b %-d, %Y" }}
-    </time>
-  </article>
-  {% endfor %}
-</section>
+<nav>
+  <ol>
+    {% for post in site.posts %}
+    <li>
+      <h2>
+        <a href="{{ post.url | prepend: site.blogeurl }}">
+          {{ post.title }}
+        </a>
+      </h2>
+      <time datetime="{{ post.date.strftime('%d/%m/%Y') }}">
+        {{ post.date | date: "%b %-d, %Y" }}
+      </time>
+    </li>
+    {% endfor %}
+  </ol>
+</nav>
