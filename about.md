@@ -15,8 +15,7 @@ Currently working as a grumpy frontend developer at [Trucker Path][Trucker
 Path]{:target="_blank"}.
 
 I do need to write a proper about page, but life gets in the way all the 
-time
-:/
+time&nbsp;:/
 
 [bookmate]: http://bookmate.com "Bookmate"
 [Trucker Path]: https://truckerpath.com "Trucker Path"
