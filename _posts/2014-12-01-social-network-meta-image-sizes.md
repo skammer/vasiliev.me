@@ -2,6 +2,7 @@
 layout: post
 title: Social network metadata image sizes
 date: 2015-10-02T03:17:20+03:00
+lang: ru
 ---
 
 Небольшой пост, чтобы в очередной раз не лезть в этот черновик.

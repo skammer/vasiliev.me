@@ -12,6 +12,14 @@ $serif: 'PT Serif', serif;
 
 body {
   padding: 0;
+  width: 88%;
+}
+
+p {
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
 }
 
 #instantclick-bar {
@@ -45,10 +53,13 @@ h1.red {
   margin-bottom: 50px;
 }
 
+.done {
+  text-decoration: line-through;
+}
 
-
-
-
+ol.fullwidth {
+  width: 100%;
+}
 
 .navigation {
   margin-top: 40px;
@@ -119,6 +130,19 @@ a.footer__mascot__link:link {
   background: none;
 }
 
+@media screen and (max-width: 760px) {
+  figure.highlight {
+    width: 100%;
+    max-width: 100%;
+    overflow: scroll;
+  }
+
+  p {
+    width: 100%;
+  }
+
+}
+
 @media screen and (max-width: 600px) {
   .greeting__header {
     font-size: 85px;
@@ -130,8 +154,12 @@ a.footer__mascot__link:link {
 }
 
 @media screen and (max-width: 420px) {
+  html, body {
+    font-size: 12px;
+  }
+
   .greeting {
-    padding: 60px 0;
+    padding: 60px 12%;
   }
 
   .greeting__header {

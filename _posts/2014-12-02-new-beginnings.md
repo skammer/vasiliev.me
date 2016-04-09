@@ -2,6 +2,7 @@
 layout: post
 title: Test ditaa integration
 published: false
+lang: ru
 ---
 
 {% ditaa %}

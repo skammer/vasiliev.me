@@ -2,6 +2,7 @@
 layout: page
 title: About me
 permalink: /about/
+lang: en
 ---
 
 I write code to make certain websites run and look beautiful. And 
