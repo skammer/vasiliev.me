@@ -11,7 +11,7 @@ Mostly dealing with Javascript, Clojure and Ruby.
 Wrote trace amounts of code in Go, Forth, Haskell, Rust, Pascal, asm, 
       R and&nbsp;C.
 
-Currently working as a grumpy frontend developer at [Trucker Path][Trucker 
+Currently working as a grumpy frontend developer at [Trucker&nbsp;Path][Trucker 
 Path]{:target="_blank"}.
 
 I do need to write a proper about page, but life gets in the way all the 
