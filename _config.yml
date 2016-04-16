@@ -18,6 +18,9 @@ markdown: kramdown
 permalink: /blog/:title/
 highlighter: rouge
 
+sass:
+  sass_dir: css
+  style: compressed
 
 exclude:
   - "dashboard"

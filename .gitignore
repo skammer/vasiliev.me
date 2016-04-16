@@ -2,3 +2,4 @@ _site
 dashboard
 publisher
 .jekyll-metadata
+.sass-cache
