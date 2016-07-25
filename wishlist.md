@@ -49,6 +49,7 @@ a list of stuff I think I need and will very probably actually use.
 * [No Surrender: My Thirty-Year War]
 
 ## Gadgets
+* [Bose QC35 wireless noise ncaceling headphones][Bose QC35]
 * _RED_ DualShock 4 controller
 * Cherry MX Brown or Clear Pok3r with DSA Dolch or Granite keycaps
 * 2nd gen fanless Macbook
@@ -83,3 +84,4 @@ a list of stuff I think I need and will very probably actually use.
 [MindWave Mobile]: http://store.neurosky.com/products/mindwave-mobile
 [Leap Motion]: https://www.leapmotion.com/
 [Fancy external hard drive]: http://www.amazon.com/Seagate-Portable-External-Silver-STDZ500400/dp/B00PZZZNDE/ref=sr_1_1?sr=8-1&ie=UTF8&keywords=seagate%2Bseven&tag=trust925-20&qid=1429556393 "Seagate Seven 500GB Portable External Hard Drive (Silver) STDZ500400"
+[Bose QC35]: https://www.bose.com/en_us/products/headphones/over_ear_headphones/quietcomfort-35-wireless.html
