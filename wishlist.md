@@ -20,6 +20,7 @@ a list of stuff I think I need and will very probably actually use.
 * <span class="done">Spiderco Sharpmaker _(got one myself)_</span>
 * Deer Sweater
 * [Noah Bradley print]
+* [Many, many prints from Simon Stålenhag][Simon Stålenhag]
 
 ## 3ds games
 
@@ -49,19 +50,22 @@ a list of stuff I think I need and will very probably actually use.
 * [No Surrender: My Thirty-Year War]
 
 ## Gadgets
-* [Bose QC35 wireless noise ncaceling headphones][Bose QC35]
+* [Bose QC35 wireless noise canceling headphones][Bose QC35]
 * _RED_ DualShock 4 controller
-* Cherry MX Brown or Clear Pok3r with DSA Dolch or Granite keycaps
+* <span class="done">Cherry MX Brown or Clear Pok3r _(got an ERGODOX)_</span>
+* DSA Dolch or Granite keycaps for ergodox
 * 2nd gen fanless Macbook
 * <span class="done">iPad Mini Retina 64GB _(don't want one anymore)_</span>
-* [MindWave Mobile]
+* <span class="done">[MindWave Mobile] _(should get something serious and/or 
+    professional)_</span>
 * <span class="done">Oculus Rift DK2 _(got one myself)_</span>
-* [Leap Motion]
+* <span class="done">[Leap Motion] _(not interested anymore)_</span>
 * <span class="done">Misfit Shine + Sport Band _(don't want one anymore)_</span>
 * Kindle Voyage
 * <span class="done">iPhone 6 128GB _(bought myself)_</span>
 * <span class="done">PS4 _(a present!)_</span>
-* [Fancy external hard drive]
+* <span class="done">[Fancy external hard drive] _(it's 2016 for gods sake get 
+    an SSD already)_</span>
 
 
 [briefcase]: http://www.saddlebackleather.com/briefcase "An example of a nice and sturdy briefcase"
@@ -85,3 +89,4 @@ a list of stuff I think I need and will very probably actually use.
 [Leap Motion]: https://www.leapmotion.com/
 [Fancy external hard drive]: http://www.amazon.com/Seagate-Portable-External-Silver-STDZ500400/dp/B00PZZZNDE/ref=sr_1_1?sr=8-1&ie=UTF8&keywords=seagate%2Bseven&tag=trust925-20&qid=1429556393 "Seagate Seven 500GB Portable External Hard Drive (Silver) STDZ500400"
 [Bose QC35]: https://www.bose.com/en_us/products/headphones/over_ear_headphones/quietcomfort-35-wireless.html
+[Simon Stålenhag]: http://www.simonstalenhag.se
