@@ -20,7 +20,8 @@ a list of stuff I think I need and will very probably actually use.
 * <span class="done">Spiderco Sharpmaker _(got one myself)_</span>
 * Deer Sweater
 * [Noah Bradley print]
-* [Many, many prints from Simon Stålenhag][Simon Stålenhag]
+* Many, many prints from [Simon Stålenhag][Simon Stålenhag]
+* And some more prints from [Jakub Rozalski][Jakub Rozalski]
 
 ## 3ds games
 
@@ -90,3 +91,4 @@ a list of stuff I think I need and will very probably actually use.
 [Fancy external hard drive]: http://www.amazon.com/Seagate-Portable-External-Silver-STDZ500400/dp/B00PZZZNDE/ref=sr_1_1?sr=8-1&ie=UTF8&keywords=seagate%2Bseven&tag=trust925-20&qid=1429556393 "Seagate Seven 500GB Portable External Hard Drive (Silver) STDZ500400"
 [Bose QC35]: https://www.bose.com/en_us/products/headphones/over_ear_headphones/quietcomfort-35-wireless.html
 [Simon Stålenhag]: http://www.simonstalenhag.se
+[Jakub Rozalski]: https://www.artstation.com/artist/jakubrozalski
