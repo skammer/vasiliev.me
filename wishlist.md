@@ -22,6 +22,7 @@ a list of stuff I think I need and will very probably actually use.
 * [Noah Bradley print]
 * Many, many prints from [Simon Stålenhag][Simon Stålenhag]
 * And some more prints from [Jakub Rozalski][Jakub Rozalski]
+* Fallkniven S1 Forest Knife with leather sheath
 
 ## 3ds games
 
@@ -49,6 +50,7 @@ a list of stuff I think I need and will very probably actually use.
 * [Paradise Lost]
 * [Atlas Shrugged]
 * [No Surrender: My Thirty-Year War]
+* [An Atlas of Fantasy]
 
 ## Gadgets
 * [Bose QC35 wireless noise canceling headphones][Bose QC35]
@@ -92,3 +94,4 @@ a list of stuff I think I need and will very probably actually use.
 [Bose QC35]: https://www.bose.com/en_us/products/headphones/over_ear_headphones/quietcomfort-35-wireless.html
 [Simon Stålenhag]: http://www.simonstalenhag.se
 [Jakub Rozalski]: https://www.artstation.com/artist/jakubrozalski
+[An Atlas of Fantasy]: https://en.wikipedia.org/wiki/An_Atlas_of_Fantasy
