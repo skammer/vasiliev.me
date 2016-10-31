@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Complexities of using CSS in modern web apps and how ClojureScript can leverage Garden to generate style sheets at runtime
+description: We attempt replacing all style management magic provided by webpack with about 60 lines of ClojureScript and, arguably, achieve astounding success.
 published: true
 lang: en
 ---
