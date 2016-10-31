@@ -90,9 +90,19 @@ module Ditaa
 
       Tempfile.open("ditaa", encoding: encoding) do |tmp|
         tmp.write source
+
+        tmp.rewind
+        puts tmp.read
+
         tmp.close
 
-        IO.popen ["ditaa", *ditaa_arguments, tmp.path, dest_path] { |out| puts out.read nil if debug || verbose }
+        puts tmp.path
+        puts dest_path
+        tmp.close
+
+        puts "------\n\n"
+
+        IO.popen ["ditaa", *ditaa_arguments, tmp.path, dest_path] { |out| puts out.read nil if true || debug || verbose }
       end
 
       File.exist? dest_path
@@ -308,7 +318,7 @@ module Jekyll
           opt :tabs, nil, { :type => :integer, :long => "tabs", :short => "t" }
         end.parse markup.split " "
 
-        attributes.keep_if { |key, _| attributes.has_key? :"#{key}_given" }
+        # attributes.keep_if { |key, _| attributes.has_key? :"#{key}_given" }
       rescue LoadError
         if markup =~ /(?<=\s|^)(?:-\w|--\w+)(?=\s|$)/
           STDERR.puts "You are missing an executable required for command-line parsing in jekyll-ditaa. Please run:"
@@ -320,6 +330,7 @@ module Jekyll
       rescue Trollop::VersionNeeded, Trollop::HelpNeeded
       end
 
+      puts attributes
       attributes ||= { }
 
       # boolean key|no-key options
