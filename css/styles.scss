@@ -26,6 +26,10 @@ p {
   hyphens: auto;
 }
 
+p code {
+  font-size: 1.2rem;
+}
+
 #instantclick-bar {
   background: $main;
 }
@@ -134,6 +138,29 @@ ol.fullwidth {
 
 a.footer__mascot__link:link {
   background: none;
+}
+
+.footnotes li {
+  margin: 0;
+}
+
+.footnotes p {
+  width: 100%;
+  margin-bottom: 0;
+}
+
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+
+sub {
+  top: 0.4em;
+}
+
+.footnotes :target {
+  background-color: #ffa;
 }
 
 @media screen and (max-width: 760px) {
