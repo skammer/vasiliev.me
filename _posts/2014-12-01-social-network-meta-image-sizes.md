@@ -53,5 +53,5 @@ _600х315_, а рекомендовано _1200x630_.  Если картинка
 символов показываются нормально.
 
 > Google uses the Headline or Title (depending on your markup) and 
-> Description in the Google+ post. These fields are truncated if they 
-> are too long.
+> Description in the Google+ post. These fields are truncated if they are too 
+> long.
