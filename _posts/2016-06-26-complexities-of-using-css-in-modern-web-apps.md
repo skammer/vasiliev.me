@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Complexities of using CSS in modern web apps and how ClojureScript can leverage isomorphic style sheets
+title: Complexities of using CSS in modern web apps and how ClojureScript can leverage Garden to generate style sheets at runtime
 published: true
 lang: en
 ---
